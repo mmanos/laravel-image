@@ -4,7 +4,9 @@ This package provides the ability to conveniently work with uploaded images.
 It includes an images table and model, and has the ability to provide multiple
 versions of the same image with different dimensions, generated on demand.
 
-This package relies on the [laravel-storage](https://github.com/dmyers/laravel-storage) to manage the image files, and supports writing to the local filesystem or the Amazon S3 service.
+## Dependencies
+
+This package relies on the [laravel-storage](https://github.com/dmyers/laravel-storage) to manage the image files, which supports writing to the local filesystem or the Amazon S3 service.
 
 ## Installation Via Composer
 

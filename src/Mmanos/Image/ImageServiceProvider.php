@@ -34,7 +34,7 @@ class ImageServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		//
+		$this->app->register('Dmyers\Storage\StorageServiceProvider');
 	}
 	
 	/**

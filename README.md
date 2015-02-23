@@ -44,10 +44,11 @@ Publish the default config file to your application so you can make modification
 $ php artisan config:publish mmanos/laravel-image
 ```
 
-Run the database migrations for this package.
+Publish and run the database migrations for this package.
 
 ```console
-$ php artisan migrate --package="mmanos/laravel-image"
+$ php artisan migrate:publish mmanos/laravel-image
+$ php artisan migrate
 ```
 
 > **Note:** Don't forget to create the writable directory used by the Storage package, if using the local filesystem driver.

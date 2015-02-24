@@ -273,7 +273,6 @@ class Image extends Model
 		try {
 			$resizer = new Resizer($path);
 		} catch (Exception $e) {
-			dar($e);
 			return false;
 		}
 		
